@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h2>Sending Emails in Django</h2>
+	<hr>
+	<form action="{% url 'send_mail' %}" method="post">
+		{% csrf_token %}
+		<input type="email" name="receiver" placeholder="To: ">
+		<br><br>
+		<input type="text" name="sub" placeholder="Subject">
+		<br><br>
+		<textarea name="content" placeholder="Body"></textarea>
+		<br><br>
+		<input type="submit" name="" value="Send">
+	</form>
+</body>
+</html>
