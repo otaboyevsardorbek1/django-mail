@@ -131,9 +131,9 @@ EMAIL_USE_TLS =True
 
 EMAIL_PORT = 587
 
-EMAIL_HOST_USER = 'madhuban211998@gmail.com'
+EMAIL_HOST_USER = 'youremail@gmail.com'
 
-EMAIL_HOST_PASSWORD = '1998madhuban'
+EMAIL_HOST_PASSWORD = 'password'
 
 
 
