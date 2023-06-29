@@ -29,3 +29,5 @@ EMAIL_HOST_PASSWORD = 'password'
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/unyxpommfcl9jt1eymdo.PNG)
 
 * After doing these settings you can download repo
+
+* TEST
